@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -24,6 +25,10 @@
 
 img {
     max-width: 100%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 /* #region Col- */
 .col-1 {
@@ -54,6 +59,7 @@ img {
 
 .col-6 {
     width: calc((100% / 12) *6);
+    font-size: 0.9rem;
 }
 
 .col-7 {
@@ -162,8 +168,8 @@ img {
     background-color: var(--ds-grey-bg);
 }
 
-.discord_quality {
-    background-color: darkturquoise;
+.bg_grey {
+    text-align: center;
 }
 /* #endregion Header */
 
