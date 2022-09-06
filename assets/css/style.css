@@ -31,6 +31,18 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
 }
+i {
+    font-size: 2rem;
+    background-color: white;
+    color: var(--ds-header);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
 /* #region Col- */
 .col-1 {
     width: calc((100% / 12) *1);
@@ -61,7 +73,6 @@ h2 {
 
 .col-6 {
     width: calc((100% / 12) *6);
-    font-size: 0.9rem;
 }
 
 .col-7 {
@@ -99,17 +110,18 @@ h2 {
 }
 
 .logo {
+    font-size: 1.5rem;
+}
+
+.nav {
+    padding: 0 1rem;
     font-size: 1.25rem;
 }
 
 .login {
     background-color: white;
-    color: var(--ds-header);
-    border-radius: 10px;
-}
-
-#site_header span {
-    padding: 0 1rem;
+    color: black;
+    font-size: 1.25rem;
 }
 
 .menu {
@@ -147,17 +159,17 @@ h2 {
     padding: 1rem 0;
 }
 
-.download .mela {
+.apple {
     background-color: white;
     color: black;
-    border-radius: 10px;
+    font-size: 1.25rem;
     margin-right: 1rem;
 }
 
-.download .finestra {
+.windows {
     background-color: black;
     color: white;
-    border-radius: 10px;
+    font-size: 1.25rem;
     margin-left: 1rem;
 }
 /* #endregion Header */
@@ -229,7 +241,7 @@ p.option {
     justify-content: space-between;
 }
 
-button.login {
+button.register {
     background-color: var(--ds-header);
     color: white;
     font-size: 1.25rem;

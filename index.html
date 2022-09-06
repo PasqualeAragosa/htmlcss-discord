@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Discord ex</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -17,17 +18,18 @@
     <header id="site_header">
         <div class="row menu">
             <div class="col-3">
+                <i class="fa-brands fa-discord"></i>
                 <span class="logo"><strong>DISCORD</strong></span>
             </div>
             <div class="col-6">
-                <span>Scarica</span>
-                <span>Perchè Discord</span>
-                <span>Nitro</span>
-                <span>Sicurezza</span>
-                <span>Assistenza</span>
+                <span class="nav">Scarica</span>
+                <span class="nav">Perchè Discord</span>
+                <span class="nav">Nitro</span>
+                <span class="nav">Sicurezza</span>
+                <span class="nav">Assistenza</span>
             </div>
             <div class="col-3">
-                <span class="login">Accedi</span>
+                <button class="login">Accedi</button>
             </div>
         </div>
         <div class="container">
@@ -42,8 +44,8 @@
                 </div>
                 <!-- /.details -->
                 <div class="download">
-                    <span class="mela">Scarica per Mac</span>
-                    <span class="finestra">Apri Discord nel tuo browser</span>
+                    <button class="apple">&#8582; Scarica per Mac</button>
+                    <button class="windows">Apri Discord nel tuo browser</button>
                 </div>
                 <!-- /.download -->
             </div>
@@ -189,7 +191,7 @@
             <hr>
             <div class="row container-flex">
                 <span class="logo"><strong>DISCORD</strong></span>
-                <button class="login">Registrati</button>
+                <button class="register">Registrati</button>
             </div>
         </div>
         <!-- /.container -->
