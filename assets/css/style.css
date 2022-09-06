@@ -1,0 +1,155 @@
+/* #region Common rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ds-font: #23272A;
+    --ds-header: #255EE9;
+    --ds-footer: #2A2A2A;
+    --ds-grey-bg: #F6F6F6;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+/* #region Col- */
+.col-1 {
+    width: calc((100% / 12) *1);
+}
+
+.col-2 {
+    width: calc((100% / 12) *2);
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+
+.col-3 {
+    width: calc((100% / 12) *3);
+}
+
+.col-4 {
+    width: calc((100% / 12) *4);
+        background-color: red;
+        border: 1px solid black;
+}
+
+.col-5 {
+    width: calc((100% / 12) *5);
+    text-align: left;
+    padding: 2rem 15rem 2rem 0; 
+}
+
+.col-6 {
+    width: calc((100% / 12) *6);
+}
+
+.col-7 {
+    width: calc((100% / 12) *7);
+}
+
+.col-8 {
+    width: calc((100% / 12) *8);
+}
+
+.col-9 {
+    width: calc((100% / 12) *9);
+}
+
+.col-10 {
+    width: calc((100% / 12) *10);
+}
+
+.col-11 {
+    width: calc((100% / 12) *11);
+}
+
+.col-12 {
+    width: calc((100% / 12) *12);
+}
+/* #endregion Col- */
+
+/* #endregion Common rules */
+
+/* #region Body */
+/* #region Header */
+#site_header {
+    background-image: url("../img/jumbo.png");
+    background-size: cover; 
+}
+
+#site_header span {
+    padding: 0 0.5rem;
+}
+
+.menu {
+    padding: 1rem 0;
+    color: white;
+}
+
+#site_header .col-3:first-child {
+    text-align: end;
+}
+
+#site_header .col-6 {
+    text-align: center;
+}
+
+.info {
+    height: 200px;
+    display: block;
+}
+
+.info h2,
+.info p {
+    padding: 1rem 0;
+    text-align: center;
+    color: white;
+}
+
+.details {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.download {
+    text-align: center; 
+}
+
+.download span:first-child {
+    color: white;
+}
+/* #endregion Header */
+
+/* #region Main */
+#site_main {
+    background-color: white;
+}
+
+.bg_grey {
+    background-color: grey;
+}
+
+.discord_quality {
+    background-color: darkturquoise;
+}
+/* #endregion Header */
+
+/* #region Footer */
+#site_footer {
+    background-color: chocolate;
+}
+/* #endregion Footer*/
+/* #endregion Body */
