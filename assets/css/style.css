@@ -11,6 +11,7 @@
     --ds-header: #255EE9;
     --ds-footer: #2A2A2A;
     --ds-grey-bg: #F6F6F6;
+    --ds-dw: #5073ce;
 }
 
 .container {
@@ -138,7 +139,7 @@ button {
 }
 
 .info {
-    height: 250px;
+    height: 300px;
     display: block;
 }
 
@@ -156,7 +157,7 @@ button {
 
 .download {
     text-align: center;  
-    padding: 1rem 0;
+    padding: 0.5rem 0 2.5rem 0;
 }
 
 .apple {
@@ -200,12 +201,10 @@ button {
 }
 
 .bg_grey button {
-    background-color: var(--ds-header);
+    background-color: var(--ds-dw);
     color: white;
     font-size: 1.25rem;
-    padding: 0.5rem;
     margin: 1rem 0;
-    border-radius: 10px;
 }
 /* #endregion Main */
 
@@ -241,13 +240,11 @@ p.option {
     justify-content: space-between;
 }
 
-button.register {
-    background-color: var(--ds-header);
+.register {
+    background-color: var(--ds-dw);
     color: white;
     font-size: 1.25rem;
-    padding: 0.5rem;
     margin: 1rem 0;
-    border-radius: 10px;
 }
 /* #endregion Footer*/
 /* #endregion Body */
