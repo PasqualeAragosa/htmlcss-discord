@@ -29,6 +29,7 @@ img {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
 }
 /* #region Col- */
 .col-1 {
@@ -124,7 +125,7 @@ h2 {
 }
 
 .info {
-    height: 200px;
+    height: 250px;
     display: block;
 }
 
@@ -142,6 +143,7 @@ h2 {
 
 .download {
     text-align: center;  
+    padding: 1rem 0;
 }
 
 .download .mela {
@@ -171,7 +173,28 @@ h2 {
 .bg_grey {
     text-align: center;
 }
-/* #endregion Header */
+
+.bg_grey h2 {
+    padding-top: 3rem;
+}
+
+.bg_grey p {
+    padding-top: 1rem;
+}
+
+.adventur {
+    font-size: 1.5rem;
+}
+
+.bg_grey button {
+    background-color: var(--ds-header);
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+/* #endregion Main */
 
 /* #region Footer */
 #site_footer {
