@@ -90,8 +90,18 @@ img {
     background-size: cover; 
 }
 
+.logo {
+    font-size: 1.25rem;
+}
+
+.login {
+    background-color: white;
+    color: var(--ds-header);
+    border-radius: 10px;
+}
+
 #site_header span {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
 }
 
 .menu {
@@ -125,11 +135,21 @@ img {
 }
 
 .download {
-    text-align: center; 
+    text-align: center;  
 }
 
-.download span:first-child {
+.download .mela {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+.download .finestra {
+    background-color: black;
     color: white;
+    border-radius: 10px;
+    margin-left: 1rem;
 }
 /* #endregion Header */
 
@@ -139,7 +159,7 @@ img {
 }
 
 .bg_grey {
-    background-color: grey;
+    background-color: var(--ds-grey-bg);
 }
 
 .discord_quality {
